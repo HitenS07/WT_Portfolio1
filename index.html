@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="./bootstrap_min.css">
+    <script src="./bootstrap_bundle.js"></script>
+</head>
+<body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+        <div class="container">
+            <a class="navbar-brand" href="#">Hitz</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#AboutMe">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#Education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <select name="sem" id="res" class="form-select bg-dark text-light border-0 ms-3">
+                            <option value="sem1">Sem1</option>
+                            <option value="sem2">Sem2</option>
+                            <option value="sem3">Sem3</option>
+                            <option value="sem4">Sem4</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <div class="container py-5 text-center">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img class="img-fluid rounded-circle" src="images/Hiten.jpg" alt="Profile Image">
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <h1 class="display-4">Hiten Shah</h1>
+                <p class="lead">Software Developer | Cybersecurity Analyst</p>
+                <hr class="my-4">
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <section id="AboutMe" class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <p>
+                        Welcome to My Digital Frontier!<br>
+                        I'm Hiten Shah, a passionate software developer and vigilant cybersecurity analyst. My journey through the binary universe is driven by a blend of creativity and a relentless pursuit of security. Whether I'm crafting robust code or fortifying systems against unseen threats, I thrive on the challenges that lie at the intersection of innovation and protection. Explore my portfolio to discover how I transform ideas into secure, scalable solutions that stand the test of time—and the ever-evolving landscape of cyber threats.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="Skills" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Skills</h2>
+            <div class="d-flex justify-content-center flex-wrap gap-3">
+                <span class="badge bg-dark text-white py-2 px-4">JavaScript</span>
+                <span class="badge bg-success py-2 px-4">Python</span>
+                <span class="badge bg-warning text-dark py-2 px-4">React JS</span>
+                <span class="badge bg-secondary py-2 px-4">JAVA</span>
+            </div>
+            <div class="mt-4">
+                <p>
+                    As a Software Developer, I have developed strong expertise in various programming languages and frameworks. I’m proficient in JavaScript and React JS, which enables me to create dynamic and responsive web applications. My knowledge of Python and Java allows me to build robust backend systems and applications with confidence.
+
+                    <br>In addition to development, I’m also a vigilant Cybersecurity Analyst. I excel at identifying vulnerabilities, implementing security measures, and ensuring the integrity and confidentiality of data. My unique ability to merge development with security practices makes me a versatile professional, capable of delivering secure, scalable solutions that are innovative and resilient against emerging threats.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="Education" class="bg-dark text-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="card">
+                        <h5 class="card-header text-center bg-primary text-white">Education</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">SSC</h5>
+                            <p class="card-text">Percentage: 88%</p>
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">HSC</h5>
+                            <p class="card-text">Percentage: 76.67%</p>
+                        </div>
+                        <hr>
+                        <div class="card-body">
+                            <h5 class="card-title">B.Tech Computer Engineering</h5>
+                            <p class="card-text">CGPA: 8.28</p>
+                        </div>
+                    </div>
+
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <div class="text-center my-4">
+        <a href="#top" class="btn btn-dark">Go to Top</a>
+    </div>
+</body>
+</html>
